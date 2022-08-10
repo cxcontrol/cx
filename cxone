@@ -1,1 +1,6 @@
-
+if getgenv().Settings.key ~= nil or getgenv().Settings.key == "" then
+    game:GetService("Players").LocalPlayer:Kick("[cxcontrol] Invalid script layout! (Message any staff and tell them this error code: 'E12S' )")
+    return
+end
+_G.wl_key = getgenv().Settings.key
+loadstring(game:HttpGet("https://raw.githubusercontent.com/cxcontrol/cx/main/prem/cxoneV1.lua"))()
