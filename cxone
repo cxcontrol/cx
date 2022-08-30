@@ -3,4 +3,4 @@ if not game:IsLoaded() then
 end
 
 _G.wl_key = getgenv().Settings.key
-loadstring(game:HttpGet("https://raw.githubusercontent.com/cxcontrol/cx/main/prem/v1/cxone.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/cxcontrol/cx/main/prem/cxone.lua"))()
